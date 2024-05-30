@@ -7,8 +7,8 @@ import time
 logging.basicConfig(filename='market_making_bot.log', level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-api_key = 'lXmgfaUgGhM0uDfjxzJp7f89FfSXmyH8BKDDkV0Y2O9ip13ANtf9VuivzS29jZ3a'
-api_secret = '8MS8eObhkfhBYdSTexs6JMn2HlrIVwF7HkjOvFUerZzNWqj8rbzNjz2zIGq4g6Gi'
+api_key = 'api_key'
+api_secret = 'secret_key'
 
 binance = ccxt.binance({
     'apiKey': api_key,
